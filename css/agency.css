@@ -226,7 +226,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/butter-brow.jpg');
+  background-image: url('../img/header-bg.jpg');
+  background-opacity: 0.5;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -235,11 +236,13 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #fed136;
 }
+
 header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  color: #fed136;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -541,6 +544,8 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  height: 250px;
+  width: 180px;
 }
 .team-member h4 {
   margin-top: 25px;
